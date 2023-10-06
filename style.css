@@ -1,0 +1,97 @@
+.visor {
+  padding: 10px;
+  background: #eee;
+  font-size: 3rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: right;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 1.5px 5px 5px 1px gray;
+  height: 50px;
+}
+
+.container {
+  display: block;
+  position: fixed;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .1);
+  background: #00FFFF;
+  max-width: 300px;
+}
+
+.OPcontainer {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 5px;
+  max-width: 200px;
+  align-items: center;
+  align-content: center;
+}
+
+.buttonOP {
+  margin: .5px;
+  border-color: #ffffff;
+  padding: 0.6em 1.8em;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #2F4F4F;
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  max-width: 50px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .5);
+}
+
+.buttonOP:hover {
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+
+.NUMcontainer {
+  margin: 10px;
+  background: #F0F8FF;
+  position: static;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+  border: 1.5px solid black;
+  border-radius: 1px 10px 1px 10px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .5);
+  max-width: 280px;
+}
+
+.button {
+  margin-left: -1.8px;
+  border-color: #ffffff;
+  padding: 0.6em 2.3em;
+  cursor: pointer;
+  font-size: 1em;
+  color: #2F4F4F;
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+
+.button:hover {
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+
+.botaoigual {
+  width: 50px;
+  border-color: transparent;
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+  background-color: #D3D3D3;
+  color: #000;
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  width: 200%;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.botaoigual:hover {
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
